@@ -21,4 +21,4 @@ for _, v in pairs(workspace:GetDescendants()) do
         v.CastShadow = false
     end
 end
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://github.dev/Tdan2k4/Gi-m-lag/blob/main/hieuungv2.txt ốp"))()
