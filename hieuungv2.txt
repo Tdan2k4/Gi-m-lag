@@ -1,0 +1,24 @@
+
+
+game.Lighting.GlobalShadows = false
+game.Lighting.QualityLevel = Enum.QualityLevel.Level01 -- Cài đặt độ chi tiết đồ họa thấp nhất
+
+game:GetService("SoundService").SoundEnabled = false
+
+game.Lighting.FogEnd = 0
+game.Lighting.FogStart = 0
+game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
+
+game.Lighting.Rain.Enabled = false
+game.Lighting.Snow.Enabled = false
+
+game:GetService("GraphicsSettings"):SetQualityLevel(Enum.QualityLevel.Level01)
+
+game.Lighting.MotionBlurEnabled = false
+
+for _, v in pairs(workspace:GetDescendants()) do
+    if v:IsA("Part") then
+        v.CastShadow = false
+    end
+end
+loadstring(game:HttpGet(""))()
